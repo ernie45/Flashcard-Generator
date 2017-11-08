@@ -32,5 +32,4 @@ function ClozeCard(text, cloze){
 		return lines.join("");
 	};
 };
-var card = ClozeCard("My name is Ernesto", "name");
-console.log(card.partial);
+module.exports = ClozeCard; 
